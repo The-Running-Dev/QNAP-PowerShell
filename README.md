@@ -1,1 +1,1 @@
-# QNAP-PowerShell
+# PowerShell for QNAP
