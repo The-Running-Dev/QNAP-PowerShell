@@ -15,6 +15,7 @@ export TZ=$(/sbin/getcfg System 'Time Zone' -f /etc/config/uLinux.conf)
 export TERM=xterm
 export HOSTNAME
 export POWERSHELL_ROOT=$QPKG_ROOT/powershell
+export LD_LIBRARY_PATH=$POWERSHELL_ROOT:$LD_LIBRARY_PATH
 
 case "$1" in
   start)
